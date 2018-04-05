@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Countin With Charlie</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+
+        <div class="jumbotron">
+            <h1 id="jumbotronH1">Countin With Charlie</h1>
+            <p id="jumbotronP">
+                Each Image Has A Number. Add Image Count To Match Random Count Below Image. Win or Loss!
+            </p>
+        </div>
+
+    </header>
+
+    <body>
+
+        <div class="containerScore">
+
+            <div class="rowScore">
+
+                <div class="col-md-6 winClass">
+                    <h4>Wins: <span id="winScore"></span></h4>
+                </div>
+                <div class="col-md-6 lossClass" >
+                        <h4>Losses: <span id="lossScore"></span></h4>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="containerImages">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <img src="assets\images\Cartoon1.jpg" class="Cartoon1" alt="Cartoon1">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets\images\Cartoon2.jpg" class="Cartoon2" alt="Cartoon2">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets\images\Cartoon3.jpg" class="Cartoon3" alt="Cartoon3">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets\images\Cartoon4.jpg" class="Cartoon4" alt="Cartoon4">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="containerNumberToGuess">
+
+            <div class="row">
+
+                <div class="col-md-2 col-md-offset-2">
+                    <p>Number To Guess: </p>
+                </div>
+                <div class="col-md-2" id="randomNumber">
+                    <p>TEMP NUMBER TO GUESS</p>
+                </div>
+                <div class="col-md-2">
+                    <p>Selected Total: </p>
+                </div>
+                <div class="col-md-2" id="pictureTotal">
+                    <p>TEMP PICTURE GUESS</p>
+                </div>
+
+            </div>
+
+        </div>
+
+<!--        <footer>
+            <div>
+                <p>Joseph Kampa 2018</p>
+            </div>
+        </footer>
+-->    
+</body>
+
+<script src="assets/javascript/script.js"></script>
+
+</html>
