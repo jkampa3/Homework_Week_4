@@ -1,0 +1,32 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif
+}
+
+.jumbotron {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#jumbotronH1 {
+    align-content: center;
+    margin: 10px;
+}
+
+.winClass {
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    height: 400px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+}
+
