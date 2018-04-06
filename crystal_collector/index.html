@@ -26,8 +26,9 @@
 
     <body>
 
-        <div class="containerScore">
+        <div class="container">
 
+<!--Score Section-->
             <div class="rowScore">
 
                 <div class="col-md-6 winClass">
@@ -39,11 +40,8 @@
 
             </div>
 
-        </div>
-
-        <div class="containerImages">
-
-            <div class="row">
+<!--Images Section-->
+            <div class="rowImages">
 
                 <div class="col-md-3">
                     <img src="assets\images\Cartoon1.jpg" class="Cartoon1" alt="Cartoon1">
@@ -60,36 +58,41 @@
 
             </div>
 
-        </div>
+<!--Random Number / Total-->
+            <div class="rowTotalLine">
 
-        <div class="containerNumberToGuess">
-
-            <div class="row">
-
-                <div class="col-md-2 col-md-offset-2">
-                    <p>Number To Guess: </p>
+                <div class="col-md-6 randomNumberClass">
+                    <h4>Number To Guess: <span id="randomNumber"></span></h4>
                 </div>
-                <div class="col-md-2" id="randomNumber">
-                    <p>TEMP NUMBER TO GUESS</p>
-                </div>
-                <div class="col-md-2">
-                    <p>Selected Total: </p>
-                </div>
-                <div class="col-md-2" id="pictureTotal">
-                    <p>TEMP PICTURE GUESS</p>
+                <div class="col-md-6 pictureTotalClass" >
+                    <h4>Selected Total: <span id="pictureTotal"></span></h4>
                 </div>
 
             </div>
 
         </div>
 
-<!--        <footer>
+        <div id="dialogWinning" title="Game Winning">
+
+            <img src="assets\images\Winning.jpg" alt="Winning">
+            <p id="dialogWinningP">WINNING!</p>
+
+        </div>
+
+        <div id="dialogLossing" title="Game Stay Positive">
+
+            <img src="assets\images\Lossing.jpg" alt="Lossing">
+            <p id="dialogLossingP">Stay Positive!</p>
+
+        </div>
+
+<!--    <footer>
             <div>
                 <p>Joseph Kampa 2018</p>
             </div>
         </footer>
 -->    
-</body>
+    </body>
 
 <script src="assets/javascript/script.js"></script>
 
